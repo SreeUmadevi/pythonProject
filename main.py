@@ -55,13 +55,7 @@ def astar(maze, start, end):
             open_list.append(child)
 def main():
 
-    graph = [[0, 1, 0, 0, 0, 0],
-             [1, 0, 1, 0, 1, 0],
-             [0, 1, 0, 0, 0, 1],
-             [0, 0, 0, 0, 1, 0],
-             [0, 1, 0, 1, 0, 0],
-             [0, 0, 1, 0, 0, 0]
-             ]
+
     start = (0, 0)
     end = (5, 5)
     end1 = (5, 5)
